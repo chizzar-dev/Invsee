@@ -1,7 +1,6 @@
 name: InvSee
 version: ${project.version}
 main: com.metox.invsee.InvSee
-website: https://discord.gg/forges
 api-version: 1.13
 author: chizzar-dev
 description: Baska oyuncularin envanterini zirh ve yan el dahil goruntule. Coslant.
