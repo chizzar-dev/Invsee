@@ -1,0 +1,28 @@
+# InvSee - chizzar-dev
+# %player% = hedef oyuncu adi
+
+title: "&8%player% - Envanter"
+
+# false yaparsan sadece goruntulenir, degisiklik yapilamaz
+allow-edit: true
+
+filler:
+  material: "GLASS_PANE"
+  name: " "
+
+info:
+  material: "PAPER"
+  name: "&e%player%"
+  lore:
+    - "&7Envanterini goruntuluyorsun"
+    - "&7Alt sirada zirh ve yan el"
+
+messages:
+  no-permission: "&cBunun icin yetkin yok."
+  players-only: "&cBu komutu sadece oyuncular kullanabilir."
+  usage: "&7/invsee <oyuncu>  &8|  &7/invsee enderchest <oyuncu>"
+  player-not-found: "&cOyuncu bulunamadi ya da cevrimdisi."
+  self: "&cKendi envanterini goruntuleyemezsin."
+  opened: "&a%player% adli oyuncunun envanteri acildi."
+  opened-ender: "&a%player% adli oyuncunun ender sandigi acildi."
+  offline-nosave: "&e%player% cikis yaptigi icin degisiklikler kaydedilmedi."
